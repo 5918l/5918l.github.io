@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>QPVIJIDJ的博客</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+    <meta charset="UTF-8">
+    <title>QPVIJIDJ的博客</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Description">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css">
+
 </head>
 <body>
-  <div id="app">加载中</div>
-  <script>
+<div id="app">加载中</div>
+<script>
     window.$docsify = {
-      name: '',
-      repo: ''
+        name: 'qpvijidj的博客',
+        repo: '5918l/5918l.github.io.git',
+        onlyCover: true,
+        loadNavbar: true,
+        loadSidebar: true,
+        formatUpdated: '{MM}/{DD} {HH}:{mm}',
+        formatUpdated: function (time) {
+            // ...
+
+            return time;
+        },
+        subMaxLevel: 2,
+        autoHeader: true,
+        coverpage: true
     }
-  </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+</script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 </body>
 </html>

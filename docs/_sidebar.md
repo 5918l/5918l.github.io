@@ -1,8 +1,8 @@
 <!-- docs/_sidebar.md -->
 
-* [首页](nihao/)
+* [首页](/)
 
 
 <!-- docs/_sidebar.md -->
-* [:us:, :uk:](/)
-* [Guide](nihao/nihao.md "The greatest guide in the world")
+* [2020-08](2020-08/ "The greatest guide in the world")
+* [ceshi](ceshi/ "The greatest guide in the world")

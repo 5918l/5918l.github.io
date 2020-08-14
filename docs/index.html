@@ -7,11 +7,12 @@
     <meta name="description" content="Description">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 
 </head>
 <body>
 <div id="app">加载中</div>
+<div> {docsify-updated} </div>
 <script>
     window.$docsify = {
         name: 'qpvijidj的博客',
@@ -20,11 +21,7 @@
         loadNavbar: true,
         loadSidebar: true,
         formatUpdated: '{MM}/{DD} {HH}:{mm}',
-        formatUpdated: function (time) {
-            // ...
 
-            return time;
-        },
         subMaxLevel: 2,
         autoHeader: true,
         coverpage: true
